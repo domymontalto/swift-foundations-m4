@@ -18,6 +18,7 @@
 		D331133F285CFC9100B47C9F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331133E285CFC9100B47C9F /* DataService.swift */; };
 		D3A6E15828662CF7005412F1 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6E15728662CF7005412F1 /* RecipeFeaturedView.swift */; };
 		D3BBBF7D285E448C001C0B7E /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBBF7C285E448C001C0B7E /* RecipeDetailView.swift */; };
+		D3C994D2294D3B1600F25AE5 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C994D1294D3B1600F25AE5 /* Rational.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D331133E285CFC9100B47C9F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		D3A6E15728662CF7005412F1 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 		D3BBBF7C285E448C001C0B7E /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		D3C994D1294D3B1600F25AE5 /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				D3311338285CF86E00B47C9F /* recipes.json */,
+				D3C994D0294D3AD200F25AE5 /* Utilities */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -126,6 +129,14 @@
 				D331133E285CFC9100B47C9F /* DataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		D3C994D0294D3AD200F25AE5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D3C994D1294D3B1600F25AE5 /* Rational.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 			files = (
 				D331133B285CF8C700B47C9F /* Recipe.swift in Sources */,
 				D3BBBF7D285E448C001C0B7E /* RecipeDetailView.swift in Sources */,
+				D3C994D2294D3B1600F25AE5 /* Rational.swift in Sources */,
 				D331133D285CFAD600B47C9F /* RecipeModel.swift in Sources */,
 				D3311328285CF70A00B47C9F /* RecipeListView.swift in Sources */,
 				D3311326285CF70A00B47C9F /* Recipe_List_App.swift in Sources */,
